@@ -156,15 +156,22 @@ Visual Studio (Version: 2017) [https://visualstudio.microsoft.com/](https://visu
 
 #### Build and deploy the app to a device
 
-1. Add the platform:
+##### Android
+More information: [https://beta.ionicframework.com/docs/building/android](https://beta.ionicframework.com/docs/building/android)
+
+1. Generate the native project, if it does not already exist:
    ```bash
-   $ cordova platform add android
+   $ ionic cordova prepare android
    ```
-2. Build the current version of the app:
+2. Install the platform:
+   ```bash
+   $ cordova platform add android --save
+   ```
+3. Build the current version of the app:
    ```bash
    $ ionic build
    ```
-3. Build the native app:
+4. Build the native app:
    ```bash
    $ cordova build android
    ```
