@@ -1,5 +1,5 @@
 # Ionic4-Cordova-Start Template
-This is a Ionic4-Cordova-Start template with the Ionic version 4.0.0-rc.1.
+This is a Ionic4-Cordova-Start template with the Ionic/Angular version 4.0.0.
 
 ## Required software
 Please install the following software before continue.
@@ -18,7 +18,7 @@ Please install the following software before continue.
    ```
 3. Ionic CLI
    ```bash
-   $ sudo npm install -g ionic@4.8.0
+   $ sudo npm install -g ionic@4.9.0
    ```
    ```bash
    // Verifying of the installation:
@@ -144,7 +144,7 @@ If you want to deploy and run the app on a Android device.
 
 ##### iOS
 If you want to deploy and run the app on a iOS device.
-1. xCode (Version: 9.3) [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)
+1. xCode (Version: 10) [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)
 2. Install the NPM-package `ios-deploy`:
    ```bash
    $ sudo npm install ios-deploy@1.9.4 -g
@@ -165,7 +165,7 @@ More information: [https://beta.ionicframework.com/docs/building/android](https:
    ```
 2. Install the platform:
    ```bash
-   $ cordova platform add android --save
+   $ ionic cordova platform add android --save
    ```
 3. Build the current version of the app:
    ```bash
@@ -173,11 +173,11 @@ More information: [https://beta.ionicframework.com/docs/building/android](https:
    ```
 4. Build the native app:
    ```bash
-   $ cordova build android
+   $ ionic cordova build android
    ```
 4. Deploy the app to device:
    ```bash
-   $ cordova run android --device
+   $ ionic cordova run android --device
    ```
 
 Substitute `android` for `ios` if on a Mac.
